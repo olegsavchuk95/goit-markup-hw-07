@@ -781,6 +781,7 @@ body {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-bottom: 94px;
   margin-left: calc(-1 * $project-list-gap);
   margin-top: calc(-1 * $project-list-gap);
@@ -788,7 +789,6 @@ body {
 
 .projects-list__item {
   flex-basis: calc((100% / 3) - 30px);
-  margin-left: 30px;
   margin-top: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
