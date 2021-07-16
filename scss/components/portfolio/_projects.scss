@@ -11,8 +11,8 @@
 .projects-list__item {
   flex-basis: calc((100% / 3) - 30px);
 
-  margin-left: var(--project-list-gap);
-  margin-top: var(--project-list-gap);
+  margin-left: $project-list-gap;
+  margin-top: $project-list-gap;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
