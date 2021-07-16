@@ -1,18 +1,17 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
+ 
   padding-bottom: 94px;
 
-  margin-left: calc(-1 * $project-list-gap);
-  margin-top: calc(-1 * $project-list-gap);
+  margin-left: $negative-list-gap;
+  margin-top: $negative-list-gap;
 }
 
 .projects-list__item {
   flex-basis: calc((100% / 3) - 30px);
 
-  // margin-left: $project-list-gap;
+  margin-left: $project-list-gap;
   margin-top: $project-list-gap;
 
   transition-duration: 250ms;
