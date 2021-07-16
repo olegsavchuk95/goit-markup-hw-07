@@ -9,29 +9,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
 <body>
     <!-- Header -->
     <header class="page-header">
         <div class="container">
-            <!-- ЛОГО -->
-            <a class="logo logo-header" href="./index.html"><span class="blue-word">Web</span>Studio</a>
+            <!-- LOGO -->
+            <a class="logo logo__header" href="./index.html"><span class="logo__color--blue">Web</span>Studio</a>
 
-            <!-- НАВІГАЦІЯ -->
+            <!-- NAVIGATION -->
             <nav class="nav">
-                <ul class="nav__list list">
-                    <li class="nav__item">
-                        <a class="nav__link links" href="./index.html">Студия</a>
+                <ul class="nav-list list">
+                    <li class="nav-list__item">
+                        <a class="nav-list__link links nav-list__link--current" href="./index.html">Студия</a>
                     </li>
-                    <li class="nav__item">
-                        <a class="nav__link nav__link--current" href="./portfolio.html">Потрфолио</a>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="./portfolio.html">Потрфолио</a>
                     </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">Контакты</a>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Контакты</a>
                     </li>
                 </ul>
             </nav>
 
-            <!-- КОНТАКТИ -->
+            <!-- CONTACTS -->
             <div class="contacts">
                 <a class="contacts__link" href="mailto:info@devstudio.com">
 
@@ -60,25 +61,25 @@
         <!-- BUTTONS -->
     <div class="filter">
         <div class="container">
-            <ul class="filter__list list">
-                <li class="filter__item">
-                    <button type="button" class="filter__button">Все</button>
+            <ul class="filter-list list">
+                <li class="filter-list__item">
+                    <button type="button" class="filter-list__button">Все</button>
                 </li>
 
-                <li class="filter__item">
-                    <button type="button" class="filter__button">Веб-сайты</button>
+                <li class="filter-list__item">
+                    <button type="button" class="filter-list__button">Веб-сайты</button>
                 </li>
 
-                <li class="filter__item">
-                    <button type="button" class="filter__button">Приложения</button>
+                <li class="filter-list__item">
+                    <button type="button" class="filter-list__button">Приложения</button>
                 </li>
 
-                <li class="filter__item">
-                    <button type="button" class="filter__button">Дизайн</button>
+                <li class="filter-list__item">
+                    <button type="button" class="filter-list__button">Дизайн</button>
                 </li>
 
-                <li class="filter__item">
-                    <button type="button" class="filter__button">Маркетинг</button>
+                <li class="filter-list__item">
+                    <button type="button" class="filter-list__button">Маркетинг</button>
                 </li>
             </ul>
         </div>
@@ -91,9 +92,9 @@
 
     <div class="container">
 
-        <ul class="projects__list list">
+        <ul class="projects-list list">
 
-            <li class="projects__item" >
+            <li class="projects-list__item" >
 
 
                 <a href="">
@@ -117,7 +118,7 @@
 
             </li>
 
-            <li class="projects__item" >
+            <li class="projects-list__item" >
 
 
                 <a href="">
@@ -141,7 +142,7 @@
 
             </li>
 
-            <li class="projects__item" >
+            <li class="projects-list__item" >
 
 
                 <a href="">
@@ -165,7 +166,7 @@
 
             </li>
 
-            <li class="projects__item" >
+            <li class="projects-list__item" >
 
                 <a href="">
 
@@ -188,7 +189,7 @@
 
             </li>
 
-            <li class="projects__item">
+            <li class="projects-list__item">
 
 
                 <a href="">
@@ -212,7 +213,7 @@
 
             </li>
  
-            <li class="projects__item" >
+            <li class="projects-list__item" >
 
                 <a href="">
                     
@@ -235,7 +236,7 @@
 
             </li>
 
-            <li class="projects__item" >
+            <li class="projects-list__item" >
 
 
                 <a href="">
@@ -259,7 +260,7 @@
 
             </li>
 
-            <li class="projects__item">
+            <li class="projects-list__item">
 
                 <a href="">
                     
@@ -282,7 +283,7 @@
 
             </li>
 
-            <li class="projects__item" >
+            <li class="projects-list__item" >
 
                 <a href="">
 
@@ -313,70 +314,69 @@
 
 <!-- ФУТЕР -->
 <footer class="footer">
-
+    
     <div class="container">
         <div class="footer-items">
             <div class="footer-logo">
-            <a class="logo" href="./index.html"><span class="blue-word">Web</span><span
-                    class="white-word">Studio</span></a>
+                <a class="logo" href="./index.html"><span class="logo__color--blue">Web</span><span
+                        class="white-word">Studio</span></a>
 
-            <address class="address">
-                г. Киев, пр-т Леси Украинки, 26
-            </address>
+                <address class="address">
+                    г. Киев, пр-т Леси Украинки, 26
+                </address>
 
-            <div class="contacts-footer">
-                <a class="footer-links" href="mailto:info@devstudio.com"
-                    class="my-e-mail">info@devstudio.com</a><br>
-                <a class="footer-links" href="tel:+38-096-111-11-11" class="my-cell-number">+38 096 111 11 11</a>
-            </div>
+                <div class="contact-footer">
+                    <a class="contact-footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+                    <a class="contact-footer__link" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+                </div>
             </div>
 
             <!-- ----FOOTER-SOCIAL-SECTION---- -->
             <div class="footer-social">
 
                 <p class="footer-social__title">присоединяйтесь</p>
-                
-                <ul class="footer-social__list list">
-                
-                    <li class="footer-social__item">
-                
-                        <a href="#" class="footer-social__link">
-                            <svg width="20" height="20" class="footer-social__icon">
+
+                <ul class="footer-social-list list">
+
+                    <li class="footer-social-list__item">
+
+                        <a href="#" class="footer-social-list__link">
+                            <svg width="20" height="20" class="footer-social-list__icon">
                                 <use href="./sprites.svg#icon-instagram"></use>
                             </svg>
                         </a>
-                
+
                     </li>
-                    <li class="footer-social__item">
-                
-                        <a href="#" class="footer-social__link">
-                            <svg width="20" height="20" class="footer-social__icon">
+                    <li class="footer-social-list__item">
+
+                        <a href="#" class="footer-social-list__link">
+                            <svg width="20" height="20" class="footer-social-list__icon">
                                 <use href="./sprites.svg#icon-twitter"></use>
                             </svg>
                         </a>
-                
+
                     </li>
-                
-                    <li class="footer-social__item">
-                
-                        <a href="#" class="footer-social__link">
-                            <svg width="20" height="20" class="footer-social__icon">
+
+                    <li class="footer-social-list__item">
+
+                        <a href="#" class="footer-social-list__link">
+                            <svg width="20" height="20" class="footer-social-list__icon">
                                 <use href="./sprites.svg#icon-facebook"></use>
                             </svg>
                         </a>
-                
+
                     </li>
-                
-                    <li class="footer-social__item">
-                
-                        <a href="#" class="footer-social__link">
-                            <svg width="20" height="20" class="footer-social__icon">
+
+                    <li class="footer-social-list__item">
+
+                        <a href="#" class="footer-social-list__link">
+                            <svg width="20" height="20" class="footer-social-list__icon">
                                 <use href="./sprites.svg#icon-linkedin"></use>
                             </svg>
                         </a>
-                
+
                     </li>
-                
+
                 </ul>
             </div>
 
@@ -396,10 +396,10 @@
 
                     </label>
 
-                    <button type="button" class="footer-form__btn" >
+                    <button type="button" class="footer-form__btn">
 
                         Подписаться
-                        
+
                         <svg width="24" height="24" class="footer-form__icon">
                             <use href="./sprites.svg#icon-telegram"></use>
                         </svg>

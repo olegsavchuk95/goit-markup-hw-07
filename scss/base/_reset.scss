@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --base-color-black: #212121;
+
+  --secondary-color-gray: #757575;
+
+  --accent-color: #2196f3;
+
+  --white: #ffffff;
+
+  --project-list-gap: 30px;
+
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+  color: var(--base-color-black);
+}
+
+/* Общие классы */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin: 0 auto;
+}
+.list {
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.list a {
+  text-decoration: none;
+}
