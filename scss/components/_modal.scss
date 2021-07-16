@@ -1,45 +1,39 @@
 .modal {
+  position: absolute;
 
-    position: absolute;
-  
-    padding: 40px;
-  
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-  
-    width: 528px;
-    min-height: 581px;
-  
-    background: #FFFFFF;
-  
-    border-radius: 4px;
-  
-  }
-  
-  .close-button {
-  
-    position: absolute;
-    top: 8px;
-    right: 8px;
-  
-    width: 30px;
-    height: 30px;
-  
-    border-radius: 50%;
-  
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-  
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px;
 
-    &:hover {
-  
-      color: var(--accent-color);
-    
-      cursor: pointer;
-    
-    }
-  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 528px;
+  min-height: 581px;
+
+  background: #ffffff;
+
+  border-radius: 4px;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: var(--accent-color);
+
+    cursor: pointer;
   }
+}

@@ -5,12 +5,12 @@
     align-items: center;
   
     padding-bottom: 30px;
+
+    &:not(:last-child) {
   
-  }
-  
-  .socia-list__item:not(:last-child) {
-  
-    margin-right: 10px;
+      margin-right: 10px;
+    
+    }
   
   }
   
@@ -27,21 +27,22 @@
   
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
   
+      background-color: $accent-color;
+    
+    }
+
+    &:hover .socia-list__icon,
+    &:focus .socia-list__icon {
+  
+      fill: $white;
+      
+    }
   }
   
-  .socia-list__link:hover,
-  .socia-list__link:focus {
-  
-    background-color: var(--accent-color);
-  
-  }
-  
-  .socia-list__link:hover .socia-list__icon,
-  .socia-list__link:focus .socia-list__icon {
-  
-    fill: var(--white);
-  }
   
   .socia-list__icon {
   

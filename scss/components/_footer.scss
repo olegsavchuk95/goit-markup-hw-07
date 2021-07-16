@@ -10,7 +10,7 @@
   }
   
   .white-word {
-    color: var(--white);
+    color: $white;
   }
   
   .address {
@@ -20,7 +20,7 @@
     font-size: 14px;
     line-height: 1.7em;
   
-    color: var(--white);
+    color: $white;
   }
   
   .contact-footer {
@@ -56,7 +56,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   
-    color: var(--white);
+    color: $white;
   }
   
   .footer-social-list {
@@ -83,15 +83,15 @@
   
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    
+      background-color: $accent-color;
+    }
     
   }
   
-  .footer-social-list__link:hover,
-  .footer-social-list__link:focus {
-  
-    background-color: var(--accent-color);
-  }
-  
   .footer-social-list__icon {
-    fill: var(--white);
+    fill: $white;
   }

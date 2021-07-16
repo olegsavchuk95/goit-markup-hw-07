@@ -1,139 +1,130 @@
-
 .page-header {
-    border-bottom: 1px solid #ececec;
-  }
-  
-  .page-header .container {
-    display: flex;
-  }
-  
-  .logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.3em;
-    letter-spacing: 0.03em;
-  
-    text-decoration: none;
-  
-    color: var(--base-color-black);
-  }
-  
-  .logo__header {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo__color--blue {
-  
-    color: var(--accent-color);
-  
-  }
-  
-  .container .nav-list {
-    display: flex;
-    align-items: center;
-    margin-left: 93px;
-  }
-  
-  .nav-list__item {
-    margin-right: 50px;
-  }
-  
-  .nav-list__item:last-child {
-    margin-right: 0px;
-  }
-  
-  .nav-list__link {
-    display: block;
-    position: relative;
-  
-    padding-top: 32px;
-    padding-bottom: 32px;
-  
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14em;
-    letter-spacing: 0.02em;
-  
-    color: var(--base-color-black);
-  }
-  
-  .nav-list__link:hover,
-  .nav-list__link:focus {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-    color: var(--accent-color);
-  }
-  
-  .nav-list__link--current {
-    color: var(--accent-color);
-  }
-  
-  .nav-list__link--current::after {
-  
-    content: "";
-  
-    display: block;
-  
-    position: absolute;
-  
-    left: 0;
-    bottom: -1px;
-  
-    width: 100%;
-    height: 4px;
-  
-    background: #2196F3;
-    border-radius: 2px;
-  
-  }
-  
-  .contacts {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-  
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14em;
-    letter-spacing: 0.02em;
-  
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .contacts__link {
-    display: flex;
-  
-    margin-left: 50px;
-  
-    text-decoration: none;
-  
-    color: var(--secondary-color-gray);
-  
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .contacts__link:hover,
-  .contacts__link:focus {
-  
-    color: var(--accent-color);
-  }
-  
-  
-  .contacts__link:hover .contacts__icon {
-  
-    fill: #2196f3;
-  
-  }
-  
-  .contacts__icon {
-    display: flex;
-    margin-right: 10px;
-    align-self: center;
-  
-    fill: #757575;
-  }
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header .container {
+  display: flex;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3em;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+
+  color: var(--base-color-black);
+}
+
+.logo__header {
+  display: flex;
+  align-items: center;
+}
+
+.logo__color--blue {
+  color: var(--accent-color);
+}
+
+.container .nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.nav-list__item {
+  margin-right: 50px;
+}
+
+.nav-list__item:last-child {
+  margin-right: 0px;
+}
+
+.nav-list__link {
+  display: block;
+  position: relative;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+
+  color: var(--base-color-black);
+}
+
+.nav-list__link:hover,
+.nav-list__link:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: var(--accent-color);
+}
+
+.nav-list__link--current {
+  color: var(--accent-color);
+}
+
+.nav-list__link--current::after {
+  content: "";
+
+  display: block;
+
+  position: absolute;
+
+  left: 0;
+  bottom: -1px;
+
+  width: 100%;
+  height: 4px;
+
+  background: #2196f3;
+  border-radius: 2px;
+}
+
+.contacts {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__link {
+  display: flex;
+
+  margin-left: 50px;
+
+  text-decoration: none;
+
+  color: var(--secondary-color-gray);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  color: var(--accent-color);
+}
+
+.contacts__link:hover .contacts__icon {
+  fill: #2196f3;
+}
+
+.contacts__icon {
+  display: flex;
+  margin-right: 10px;
+  align-self: center;
+
+  fill: #757575;
+}
